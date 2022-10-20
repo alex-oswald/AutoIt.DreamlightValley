@@ -9,15 +9,15 @@ Func Start($title)
         Exit
     EndIf
 
-    $result = InputBox($title, "How many " & $title & " do you want to cook? (1-100)")
+    $result = InputBox($title, "How many " & $title & " do you want to cook? (1-1000)")
     $quantity = Number($result)
     If Not IsNumber($quantity) Then
-        MsgBox($MB_OK, $title, "The quantity must be a number. (1-100)")
+        MsgBox($MB_OK, $title, "The quantity must be a number. (1-1000)")
         Exit
     EndIf
 
-    If $quantity < 1 Or $quantity > 100 Then
-        MsgBox($MB_OK, $title, "The quantity must be a number. (1-100)")
+    If $quantity < 1 Or $quantity > 1000 Then
+        MsgBox($MB_OK, $title, "The quantity must be a number. (1-1000)")
         Exit
     EndIf
 

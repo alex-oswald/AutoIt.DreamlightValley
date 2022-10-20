@@ -4,10 +4,10 @@
 ; Ingredients: 825
 ; Sell Value: 1230
 
-; Stack 100
-; Cost: 82,500
-; Sell: 123k
-; Profix: 40,500
+; Stack 50
+; Cost: 41,250
+; Sell: 61,500
+; Profix: 20,250
 
 #include <dreamlight_commands.au3>
 
